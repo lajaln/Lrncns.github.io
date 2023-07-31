@@ -141,18 +141,19 @@ body {
     
 }
 
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
 
-
-.social-icon li 
+.fab
 {
-    list-style: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff ;
-    display: inline-block;
     transition: 0.5s;
     
 }
-.social-icon li:hover{
+.fab:hover{
     transform: translateY(-10px);
 }
 .copyright
@@ -178,7 +179,7 @@ body {
 } 
 .footer {
     background-color: #e90c59;
-    height: 60px;
+    height: 70px;
     width: 400px;
     align-items: center;
     display: flex;
@@ -187,8 +188,10 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 .copyright {
     margin: -10px;
     margin-left: -50px;
+    z-index: 0;
 }
